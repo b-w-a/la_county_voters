@@ -20,8 +20,8 @@ from_email = Email("research@polisci.ucla.edu")
 ControlHtml = open("/Users/bryanwilcox/Dropbox/projects/email_study/uclaucomm-ucla-responsive-email-boilerplate-f61e4698f977/test_email.html", 'r')
 control_source_html = ControlHtml.read() 
 subject = "We want to hear your thoughts!"
-#control_respondents = [x.strip() for x in open('/Users/bryanwilcox/Dropbox/projects/email_study/samples/clean_pilot.csv', 'r').read().split("\n")]
-control_respondents = [x.strip() for x in open('/Users/bryanwilcox/Dropbox/projects/email_study/samples/test_sample.csv', 'r').read().split("\n")]
+control_respondents = [x.strip() for x in open('/Users/bryanwilcox/Dropbox/projects/email_study/samples/clean_pilot.csv', 'r').read().split("\n")]
+#control_respondents = [x.strip() for x in open('/Users/bryanwilcox/Dropbox/projects/email_study/samples/test_sample.csv', 'r').read().split("\n")]
 
 
 for respondent in control_respondents[1:]:
